@@ -1,7 +1,7 @@
 import { useQuery } from "react-query";
 import './CoinData.css';
 
-const StockData = () => {
+const CoinData = () => {
 
     const order_currency = "BTC";
     const payment_currency = "KRW";
@@ -37,4 +37,4 @@ const StockData = () => {
     </div>);
 }
 
-export default StockData;
+export default CoinData;
